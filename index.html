@@ -1,26 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Construction</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        .message {
-            font-size: 24px;
-            color: #333;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="">
+  <meta name="keywords" content="Reason3D">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reason3D</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
 </head>
 <body>
-    <div class="message">🚧 Under Construction 🚧</div>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Reason3D: Searching and Reasoning 3D Segmentation
+via Large Language Model</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://kuanchihhuang.github.io/">Kuan-Chih Huang</a><sup>1</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://lxtgh.github.io/">Xiangtai Li</a><sup>2</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://luqi.info/">Lu Qi</a><sup>1</sup>,</span>
+            </span>
+            <span class="author-block">
+              <a href="https://yanshuicheng.info/">Shuicheng Yan</a><sup>2,3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://faculty.ucmerced.edu/mhyang/">Ming-Hsuan Yang</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University of California, Merced</span>
+            <span class="author-block"><sup>2</sup>Skywork AI, Singapore</span>
+            <span class="author-block"><sup>3</sup>Nanyang Technological University</span><br>
+          </div>
+          <br>
+          <div class="is-size-4 publication-authors">
+            <span class="authr-block" style="font-weight: bold;">3DV 2025</span><br>
+          </div>
+
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2405.17427"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2405.17427"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/KuanchihHuang/Reason3D"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Paper abstract -->
+    <section class="section hero ">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-full">
+                    <h2 class="title is-4">How do LMMs handle 3D segmentation?</h2>
+                    <div class="content has-text-justified">
+                    <p>
+                        Recent advancements in multimodal large language models (LLMs) have shown their potential in various domains, especially concept reasoning. Despite these developments, applications in understanding 3D environments remain limited. They primarily offer textual or numerical outputs without the capability to generate dense, informative segmentation masks.
+                    </p>
+                    <p>
+                        This paper introduces Reason3D, a novel LLM designed for comprehensive 3D understanding. Reason3D takes point cloud data and text prompts as input to produce textual responses and segmentation masks, facilitating advanced tasks like 3D reasoning segmentation, hierarchical searching, express referring, and question answering with detailed mask outputs. 
+                    </p>
+                    </div>
+                    <img src="src/reason_teasor.jpg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- data -->
+    <section class="section hero ">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-full">
+                    <h2 class="title is-4">Problem Setting: 3D Reasoning Segmentation</h2>
+                    <div class="content has-text-justified">
+                    <p>
+                    We introduce a <strong> Novel Problem Setting</strong>, requiring LMMs that can segment objects from the query. We show two examples about 3D reasoning segmentation that requires in-depth world knowledge and reasoning understanding.
+                    </p>
+                    </div>
+                    <img src="./src/reason_example.jpg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Framework -->
+    <section class="section hero ">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-full">
+                    <h2 class="title is-4">Propoased Framework: Reason3D</h2>
+                    <div class="content has-text-justified">
+                    <p>
+          Initially, we utilize a point encoder to extract dense features from the input scene, simplified by a superpoint pooling layer to reduce complexity. An interactor merges superpoint features with a learnable query, input into a frozen LLM along with instructions to generate an output containing critical tokens, <span style="color:#3c78d8">[LOC]</span> and <span style="color:#cb1326">[SEG]</span>. A hierarchical decoder then uses the <span style="color:#3c78d8">[LOC]</span> embedding to estimate a coarse location that likely covers the object. Finally, this estimated location integrates with the <span style="color:#cb1326">[SEG]</span> embedding, enabling the prediction of the final segmentation masks.
+                    </p>
+                    </div>
+                    <img src="./src/reason3d_arch.jpg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- visualization -->
+    <section class="section hero ">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-full">
+                    <h2 class="title is-4">Visualization Results: Reasoning 3D Segmentation</h2>
+                    <div class="content has-text-justified">
+                    <p>
+                    </p>
+                    </div>
+                    <img src="./src/reason3d_vis.jpg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{reason3d,
+  title={Reason3D: Searching and Reasoning 3D Segmentation via Large Language Model},
+  author={Kuan-Chih Huang and Xiangtai Li and Lu Qi and Shuicheng Yan and Ming-Hsuan Yang},
+  booktitle={International Conference on 3D Vision (3DV)},
+  year={2025}
+}</code></pre>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Thanks for the project template by  <a href="https://github.com/nerfies/nerfies.github.io"> Nerfies Project</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
